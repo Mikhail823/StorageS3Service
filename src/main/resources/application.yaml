@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: storage-s3-service
+
+cloud:
+  s3:
+    bucket-name: ${BUCKET_NAME}
+    accessKeyId: ${ACCESS_KEY}
+    secretKey: {SECRET_KEY}
+    region: ${REGION}
+    endpoint: ${ENDPOINT}
